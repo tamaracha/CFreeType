@@ -4,6 +4,6 @@
 #include <freetype/freetype.h>
 #include <freetype/tttables.h>
 #else
-#include <freetype.h>
-#include <tttables.h>
+#include <freetype/freetype.h>
+#include <freetype/tttables.h>
 #endif
